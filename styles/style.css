@@ -1,0 +1,76 @@
+.vertical-horizontal-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+img.logo {
+  height: 100px;
+  width: 100px;
+  margin: 10px auto;
+}
+
+.nav .nav-divider {
+  width: 70%;
+  margin: 0.2em auto;
+  background-color: #ccc;
+}
+
+a.nav-button {
+  font-size: 20px;
+  font-family: 'Lora', serif;
+  color: #777;
+  width: 70%;
+  margin-left: 9%;
+}
+
+li a.nav-button:hover,
+li a.nav-button:focus,
+li a.nav-button:active,
+li a.nav-button.active {
+  background-color: white;
+  color: #b00;
+}
+
+.btn-group > .btn.nav-button:hover,
+.btn-group > .btn.nav-button:focus,
+.btn-group > .btn.nav-button:active,
+.btn-group > .btn.nav-button.active {
+    background-color: white;
+    border-color: #b00;
+    color: #b00;
+}
+
+
+
+
+div#content-pane {
+  height: 80vh;
+  position: relative;
+}
+
+#welcome > h1 {
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 5px;
+
+  font-family: 'Montserrat', serif;
+  font-size: 2.5em;
+  color: white;
+  background-color: #b33;
+}
+
+#welcome > p {
+  font-family: 'Montserrat', serif;
+  font-size: 2em;
+  color: #b33;
+}
+
+#welcome > #recent {
+  border: 0px;
+  color: #333;
+  font-size: 30px;
+}
